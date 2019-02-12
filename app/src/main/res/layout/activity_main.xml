@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f5cac"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/st"
+        android:layout_marginTop="20dp">
+
+
+
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+             android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="student info"
+
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/sta"
+        android:layout_marginTop="20dp"
+        android:background="#e2eaea">
+
+
+
+
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Name"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="ID"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="cgpa"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/st1"
+        android:layout_marginTop="20dp"
+        android:background="#e2eaea">
+
+
+
+
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Tareq"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="17-01-04-135"
+
+            />
+
+        <TextView
+
+
+         android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="3.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/st123"
+        android:layout_marginTop="20dp"
+        android:background="#e2eaea">
+
+
+
+
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Sumiya"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="17-01-04-144"
+
+            />
+
+        <TextView
+
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="3.4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/st12"
+        android:layout_marginTop="20dp"
+        android:background="#e2eaea">
+
+
+
+
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Riaz"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="17-01-04-147"
+
+            />
+
+        <TextView
+
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="3.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+    </TableRow>
+</TableLayout>
